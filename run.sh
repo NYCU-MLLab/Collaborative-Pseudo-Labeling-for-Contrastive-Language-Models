@@ -137,7 +137,6 @@ python src/run.py \
     --eval_steps $EVAL_STEP \
     --num_train_epochs  10000 \
     --seed $SEED \
-    --psuedo_selection_opt 'meta' \
     --soft_label 1 \
     --is_semi 1 \
     --un_train_batch_size 16 \
