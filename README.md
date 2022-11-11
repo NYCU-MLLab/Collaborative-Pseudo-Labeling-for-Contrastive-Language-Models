@@ -38,7 +38,7 @@ bash ./run_glue.sh
 * ```MODEL```: choosing ```bert-base-uncased``` or  ```roberta-base```
 
 ### Run single experiment on Few-shot
-**Supported datasets** : SST-2, SST-2, MR, CR, Subj, MRPQ and MPQA with shots of k.
+**Supported datasets** : SST-2, SST-5, MR, CR, Subj, MNLI, SNLI, and QNLI with shots of k and ratio $\mu$.
 
 Build the few-shot dataset:
 ```
